@@ -6,7 +6,7 @@ export default function Component({ title, info, img }) {
 
     return (
 
-        <div className="bg-slate-900/60 hover:bg-slate-900 m-1 p-2 border   border-gray-600 rounded-lg">
+        <div className="bg-slate-900/60 hover:bg-gray-600/90 m-1 p-2 border   border-gray-600 rounded-lg">
 
             <Link to={`/country/${title.toLowerCase()}`}>
 
